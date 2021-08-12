@@ -11,11 +11,3 @@ close.onclick = function(){
     slidebar.style.left = "-500px";
 }
 
-openuserbar.onclick = function(){
-   
-    userbar.style.right = "0px";
-}
-
-closeuserbar.onclick = function(){
-    userbar.style.right = "-500px";
-}
