@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Roobert-Bold"; 
+    src: url(../fonts/Roobert/Roobert-Bold.otf);
+}
+
+@font-face {
+    font-family: "Roobert-Heavy"; 
+    src: url(../fonts/Roobert/Roobert-Heavy.otf);
+}
+
+@font-face {
+    font-family: "Roobert-Medium"; 
+    src: url(../fonts/Roobert/Roobert-Medium.otf);
+}
+
+@font-face {
+    font-family: "Roobert-Regular"; 
+    src: url(../fonts/Roobert/Roobert-Regular.otf);
+}
+
+@font-face {
+    font-family: "Roobert-SemiBold"; 
+    src: url(../fonts/Roobert/Roobert-SemiBold.otf);
+}
+
+@font-face {
+    font-family: "Roobert-Light"; 
+    src: url(../fonts/Roobert/Roobert-Light.otf);
+}

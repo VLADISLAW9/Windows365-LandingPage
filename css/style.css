@@ -1,0 +1,406 @@
+body {
+    background: linear-gradient(95deg, #FCFDFE 6.17%, #EEF6FC 23.28%, #E4F2FB 80.85%, #E0F0FA 98.87%);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+.windows-image{
+    position: absolute;
+    margin-top: 262px;
+    margin-right: 100px;
+    left: -20px;
+}
+
+.setting-img:hover{
+    width:16px ;
+    height: 16px;
+    animation: spinner 1.5s linear infinite;
+}
+
+@keyframes spinner{
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*header*/
+
+.header {
+    position: absolute;
+    height: 36px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: linear-gradient(90.01deg, #B3CAD9 10%, #B2CBDC 33.56%, #B0CFE3 92.25%);
+}
+
+.container-header {
+    padding-left: 16px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.logo {
+    margin-top: -11px;
+    margin-left: 16px;
+}
+
+.user {
+    margin-top: -4px;
+    margin-left: 1730px;
+}
+
+.windows365 {
+    font-family: "Roobert-Light";
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+}
+
+
+.nav-left {
+    float: left;
+    display: flex;
+}
+
+/*-------*/
+
+/*section*/
+
+.container-section {
+    padding-left: 476px;
+    padding-top: 124px;
+    padding-right: 182px;
+    padding-bottom: 163px;
+}
+
+.container-section h1 {
+    font-family: "Roobert-Heavy";
+    font-size: 26px;
+    line-height: 31px;
+    color: #333333;
+}
+
+.Quick {
+    font-family: "Roobert-Heavy";
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    margin-top: 40px;
+}
+
+.cards-01 {
+    display: flex;
+}
+
+.card1,
+.card2 {
+    margin-top: 32px;
+    width: 228px;
+    height: 64px;
+    background: #F8FEFF;
+    border: 1px solid #E7F4F9;
+    box-sizing: border-box;
+    box-shadow: 16px 0px 10px rgba(199, 224, 240, 0.66);
+    border-radius: 4px;
+}
+
+.card2 {
+    margin-left: 8px;
+}
+
+.card1:hover{
+    z-index: 10;
+}
+
+.container-card {
+    display: flex;
+    padding-top: 12px;
+    padding-left: 19px;
+    padding-right: 27px;
+}
+
+.card-header {
+    font-family: "Roobert-Heavy";
+    font-size: 10px;
+    line-height: 12px;
+    color: #7F858A;
+}
+
+.card-txt {
+    font-family: "Roobert-Medium";
+    font-size: 8px;
+    line-height: 10px;
+    color: #7F858A;
+}
+
+.card-header-box {
+    margin-top: -10px;
+    margin-left: 8px;
+}
+
+.card-img {
+    margin-top: 8px;
+}
+
+.cards-02 {
+    margin-top: 40px;
+}
+
+.cards-02-header {
+    font-family: "Roobert-Heavy";
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.card-02-1 , .card-02-2 , .card-02-3  {
+    width: 231px;
+    height: 336px;
+    background: #F4F7FD;
+    border-radius: 4px;
+    box-shadow: 36px 0px 20px rgba(199, 224, 240, 0.66);
+}
+
+.card-02-2 , .card-02-3{
+    margin-left: 44px;
+}
+
+.frame1 {
+    border-radius: 4px 4px 0 0;
+}
+
+.container-card-02 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.card-02-name {
+    font-family: "Roobert-Heavy";
+    font-size: 18px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.card-02-info {
+    font-family: "Roobert-SemiBold";
+    margin-top: -10px;
+    font-size: 10px;
+    line-height: 11px;
+    color: #333333;
+}
+
+.setting-box {
+    margin-left: 180px;
+    margin-top: -45px;
+}
+
+.bio {
+    margin-top: 31px;
+}
+
+.cpu, .ram, .database{
+    display: flex;
+}
+
+.ram, .database{
+    margin-top: 6px;
+}
+
+.bio span {
+    font-family: "Roobert-SemiBold";
+    font-size: 13px;
+    line-height: 13px;
+    color: #4F4F4F;
+}
+
+.cpu-info{
+    margin-left: 12px;
+    margin-top: -1px;
+}
+
+.ram-info{
+    margin-left: 9px;
+    margin-top: -1px;
+}
+
+.cpu-img, .data-img{
+    margin-left: 1px;
+}
+
+.data-info{
+    margin-left: 12px;
+    margin-top: -1px;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.cards-box{
+   display: flex;
+}
+
+
+/*-------*/
+
+/*slidebar*/
+
+.slidebar{
+    width: 420px;
+    height: 100%;
+    border-radius: 0px 40px 40px 00px;
+    left: -500px;
+    top: 0px;
+    position: absolute;
+    z-index: 2000;
+    background: linear-gradient(95deg, #FCFDFE 6.17%, #EEF6FC 23.28%, #E4F2FB 80.85%, #E0F0FA 98.87%);
+    box-shadow: 36px 0px 20px rgba(199, 224, 240, 0.66);
+    transition: .4s;
+}
+
+.nav{
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    border:#333333 1px solid ;
+    border-radius: 40px;  
+    font-family: "Roobert-SemiBold";
+    color:#333333 ;
+}
+
+.home{
+    padding: 15px 56px;
+}
+
+.setti{
+    padding: 15px 46px;
+}
+
+.download{
+    padding: 15px 26px;
+}
+
+.compa{
+    padding: 15px 20px;
+}
+
+.help{
+    padding: 15px 56px;
+}
+
+.nav-title{
+    padding-top: 100px;
+    margin-left: -30px;
+    text-align: center;
+}
+
+.close{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+/*--------*/
+
+/*userbar*/
+
+.userbar{
+    width: 420px;
+    height: 100%;
+    border-radius: 40px 0px 0px 40px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 2000;
+    background: linear-gradient(95deg, #FCFDFE 6.17%, #EEF6FC 23.28%, #E4F2FB 80.85%, #E0F0FA 98.87%);
+    box-shadow: -36px 0px 20px rgba(199, 224, 240, 0.66);
+    transition: .4s;
+}
+
+.close_userbar{
+    margin-left: 380px;
+    margin-top: 15px;
+}
+
+.container-userbar{
+    padding-top: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.bio_user{
+    display: flex;
+    margin-left: 20px;
+}
+
+.info_user{
+    margin-top: 100px;
+    border: #333333 1px solid;
+    border-radius: 40px;
+    width: 300px;
+}
+
+.information_user{
+    list-style: none;
+}
+
+.info-link, .info-item{
+    font-size: 18px;
+    text-align: center;
+    color: #333333;
+    font-family: "Roobert-Medium";
+}
+
+
+.info-box2{
+    margin-top: 40px;
+}
+
+.info-link{
+    font-family: "Roobert-Heavy";
+}
+
+.name_user{
+    font-family: "Roobert-Heavy";
+    font-size: 28px;
+    line-height: 19px;
+    color: #333333;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.avatar{
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.edit_btn{
+    text-decoration: none;
+    border:#333333 1px solid ;
+    border-radius: 40px;  
+    font-family: "Roobert-SemiBold";
+    color:#333333;
+    padding: 15px 45px;
+}
+
+.edit{
+    margin-left: 85px;
+    margin-top: 300px;
+}
+
+/*-------*/
